@@ -19,16 +19,10 @@ monitor:
   notify: sjunu@ecloudcontrol.com
     
 properties:
-  AWS_ACCESS_KEY_ID: 
-    vault: AWS_ACCESS_KEY_ID
-  AWS_SECRET_ACCESS_KEY:
-    vault: AWS_SECRET_ACCESS_KEY
-  AWS_DEFAULT_REGION: us-east-2
   KUBECONFIG:
     vault: KUBECONFIG
   K8S_PROVIDER: UNMANAGED
-  NAMESPACE: staging-nodexporter
+  NAMESPACE: sj-cloudcontrol-dev
   APP_INSTANCE_NAME: nodexporter-v1
-  STORAGECLASS_NAME: gp2
   COMMON_REGISTRY: quincy2019-registry-common.ecloudcontrol.com
   revision: 1
